@@ -1,123 +1,25 @@
----
-layout: default
----
+## 흰캡처를 설치해주셔서 감사합니다!
+Thank you for download WhiteCapture!
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+아래 페이지는 흰캡처 도움말 페이지입니다.
 
-[Link to another page](./another-page.html).
+오류 해결 / FAQ / 사용 방법 등이 작성되어있습니다.
 
-There should be whitespace between paragraphs.
+바로가기: [https://docs.tflow.co.kr]https://docs.tflow.co.kr
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+### 2차 다운로드 주소
+Second download url
 
-# Header 1
+현재 페이지에서 다운로드가 되지 않으면, 아래 페이지에서도 흰캡처를 받으실 수 있습니다.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+If you can't download in this page, you can download the WhiteCapture in below.
 
-## Header 2
+네이버 소프트웨어 (한글): [https://software.naver.com/software/summary.nhn?softwareId=GWS_002762]https://software.naver.com/software/summary.nhn?softwareId=GWS_002762
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+** This is Korean Page, but you can download a English version.
 
-### Header 3
+### 문의하기 및 후원하기
+Contact Us
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+문의하기(Contact Us): [http://tflow.co.kr/contact]http://tflow.co.kr/contact
+후원하기(Donate;Korean Page): [http://tflow.co.kr/donate]http://tflow.co.kr/donate
