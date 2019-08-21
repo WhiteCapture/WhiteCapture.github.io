@@ -1,5 +1,5 @@
 # **흰캡처 : 세상에서 가장 편안한 캡처 프로그램**
-
+---
 ### 도움말
 
 도움말: [https://docs.tflow.co.kr](https://docs.tflow.co.kr)
