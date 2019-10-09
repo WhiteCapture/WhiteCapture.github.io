@@ -6,6 +6,4 @@
 * 플로팅 이미지의 테두리를 제거하고, 그림자를 추가했습니다.
 * '테두리를 포함하여 저장' 기능을 개선하였습니다.
 
-### 참고 링크
-
 [도움말](https://docs.tflow.co.kr) [문의하기](http://tflow.co.kr/contact) [후원하기](http://tflow.co.kr/donate)
