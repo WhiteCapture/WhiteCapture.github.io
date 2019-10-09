@@ -1,13 +1,11 @@
 ## **흰캡처 : 세상에서 가장 편안한 캡처 프로그램**
 ---
-**v3.2.8 (2019.09.26.)**
+**v3.2.9 (2019.10.11.)**
 
-* 저장 시 테두리를 추가할 수 있습니다.
-* 창 캡처 영역이 어긋나는 오류를 수정했습니다.
-* 프로그램 최적화 작업
+* 윈도우 10 미만 버전에서 창 캡처의 좌표 오류를 수정했습니다.
+* 플로팅 이미지의 테두리를 제거하고, 그림자를 추가했습니다.
+* '테두리를 포함하여 저장' 기능을 개선하였습니다.
 
 ### 참고 링크
 
-- 도움말: [https://docs.tflow.co.kr](https://docs.tflow.co.kr)
-- 문의하기: [http://tflow.co.kr/contact](http://tflow.co.kr/contact)
-- 후원하기: [http://tflow.co.kr/donate](http://tflow.co.kr/donate)
+[도움말](https://docs.tflow.co.kr) [문의하기](http://tflow.co.kr/contact) [후원하기](http://tflow.co.kr/donate)
