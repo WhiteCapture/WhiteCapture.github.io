@@ -28,6 +28,24 @@ body
     margin-right: 10px;
 }
 
+.navbar home a:link
+{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar home a:hover
+{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar home a:visited
+{
+    text-decoration: none;
+    color: white;
+}
+
 .navbar ul
 {
     margin-top: 0px;
