@@ -239,6 +239,13 @@ body
         font-size: 12px;
     }
     
+    .container .decription .check
+    {
+        width: 300px;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+    
     .container .picture
     {
         display: none;
@@ -247,11 +254,6 @@ body
     .container .decription
     {
         text-align: center;
-    }
-    
-    .container .decription .check
-    {
-        margin: 0 auto;
     }
     
     .container .function
