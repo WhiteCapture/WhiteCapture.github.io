@@ -3,12 +3,24 @@ html
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+body
+{
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+
 .navbar
 {
     background-color: #242424;
     color: #fff;
     height: 70px;
     width: 100%;
+}
+
+.navbar home
+{
+    display: inline-block;
 }
 
 .navbar ul
@@ -21,7 +33,7 @@ html
 
 .navbar ul li
 {
-    display: inline;
+    display: inline-block;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -29,23 +41,24 @@ html
 .navbar ul li a:link
 {
     text-decoration: none;
-    color: #fff;
+    color: #ddd;
 }
 
 .navbar ul li a:visited
 {
     text-decoration: none;
-    color: #fff;
+    color: #ddd;
 }
 
 .navbar ul li a:hover
 {
     text-decoration: none;
-    color: #ddd;
+    color: #fff;
 }
 
 .navbar ul li a home
 {
     text-decoration: none;
     color: #fff;
+    font-size: 25px;
 }
