@@ -219,6 +219,7 @@ body
     .container .picture
     {
         display: none;
+        visibility: hidden;
     }
     
     .container .decription
