@@ -73,7 +73,66 @@ body
 {
     clear: inherit;
     width: 960px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .decription .btn
+{
+    background-color: #00c896;
+    font-weight: 100;
+    border-radius: .25rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+}
+
+.container .decription
+{
+    width: 480px;
+    float: left;
     margin: 0 auto;
+}
+
+.container .decription a:link
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container .decription a:hover
+{
+    background-color: #00b886;
+    text-decoration: none;
+    color: #fff;
+    transition: background-color .15s ease-in-out;
+}
+
+.container .decription a:visited
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.container .decription .check
+{
+    width: 400px;
+    background-color: #444;
+    font-weight: 100;
+    border-radius: .25rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+    color: #eee;
+    padding: 10px 20px 10px 20px;
+    margin-right: 10px;
+}
+
+.container .picture
+{
+    margin: 0 auto;
+    width: 480px;
+    float: left;
 }
 
 .container h1
@@ -87,15 +146,9 @@ body
 {
     margin-bottom: 0px;
     margin-top: 0px;
-    margin-left: 10px;
 }
 
 .container p
 {
     font-size: 15px;
-}
-
-.container p copyright
-{
-    font-size: 9px;
 }
