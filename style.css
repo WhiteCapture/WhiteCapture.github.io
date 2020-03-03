@@ -203,6 +203,11 @@ body
 
 @media screen and (max-width: 960px)
 {
+    body
+    {
+        width: 100%;
+    }
+    
     .navbar home
     {
         margin-left: 20px;
@@ -219,7 +224,6 @@ body
     .container .picture
     {
         display: none;
-        visibility: hidden;
     }
     
     .container .decription
