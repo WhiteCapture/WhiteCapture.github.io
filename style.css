@@ -203,22 +203,40 @@ body
 
 @media screen and (max-width: 960px)
 {
-    body
-    {
-        width: 100%;
-    }
-    
     .navbar home
     {
         margin-left: 20px;
+        margin-top: 5px;
+        font-size: 25px;
     }
     
     .navbar ul
     {
         margin-top: 0px;
-        padding-top: 20px;
-        font-size: 20px;
+        padding-top: 25px;
+        font-size: 15px;
         margin-left: 80px;
+    }
+    
+    .container
+    {
+        width: 480px;
+        margin: 0 auto;
+    }
+    
+    .container .decription h1
+    {
+        font-size: 48px;
+    }
+    
+    .container .decription h3
+    {
+        font-size: 15px;
+    }
+    
+    .container .decription p
+    {
+        font-size: 12px;
     }
     
     .container .picture
@@ -233,12 +251,6 @@ body
     
     .container .decription .check
     {
-        margin: 0 auto;
-    }
-    
-    .container
-    {
-        width: 480px;
         margin: 0 auto;
     }
     
