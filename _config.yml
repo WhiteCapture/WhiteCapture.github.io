@@ -1,7 +1,34 @@
-name: 흰캡처
-title: 흰캡처
-description: "현재 최신 버전: v3.3.3"
-show_downloads: true
-google_analytics: UA-146262238-1
-theme: jekyll-theme-cayman
- 
+baseurl: ''
+exclude: ['README.md']
+permalink: pretty
+title: 'Jekyll Serif'
+
+collections:
+  services:
+    output: true
+    permalink: /services/:path/
+  team:
+    output: true
+    permalink: /team/:path/
+  testimonials:
+    output: true
+    permalink: /testimonials/:path/
+
+defaults:
+  - scope:
+      type: services
+    values:
+      layout: service
+      bodyClass: page-services-single
+  - scope:
+      path: 'images'
+    values:
+      image: true
+
+sass:
+  style: compact # possible values: nested expanded compact compressed
+
+google_analytics_id: null
+
+plugins:
+  - jekyll-environment-variables
