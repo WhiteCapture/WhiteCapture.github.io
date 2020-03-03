@@ -200,3 +200,48 @@ body
     width: 300px;
     margin-right: 0px;
 }
+
+@media screen and (max-width: 960px)
+{
+    .navbar home
+    {
+        margin-left: 20px;
+    }
+    
+    .navbar ul
+    {
+        margin-top: 0px;
+        padding-top: 20px;
+        font-size: 20px;
+        margin-left: 80px;
+    }
+    
+    .container .picture
+    {
+        display: none;
+    }
+    
+    .container .decription
+    {
+        text-align: center;
+    }
+    
+    .container .decription .check
+    {
+        margin: 0 auto;
+    }
+    
+    .container
+    {
+        width: 480px;
+        margin: 0 auto;
+    }
+    
+    .container .function
+    {
+        clear: both;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+}
