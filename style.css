@@ -1,0 +1,51 @@
+html
+{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.navbar
+{
+    background-color: #242424;
+    color: #fff;
+    height: 70px;
+    width: 100%;
+}
+
+.navbar ul
+{
+    margin-top: 0px;
+    padding-top: 20px;
+    font-size: 20px;
+    margin-left: 88px;
+}
+
+.navbar ul li
+{
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar ul li a:link
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul li a:visited
+{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar ul li a:hover
+{
+    text-decoration: none;
+    color: #ddd;
+}
+
+.navbar ul li a home
+{
+    text-decoration: none;
+    color: #fff;
+}
