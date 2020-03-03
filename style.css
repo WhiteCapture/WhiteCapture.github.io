@@ -135,7 +135,7 @@ body
     float: left;
 }
 
-.container h1
+.container .decription h1
 {
     font-size: 72px;
     font-weight: 100;
@@ -151,4 +151,30 @@ body
 .container p
 {
     font-size: 15px;
+}
+
+.container .function h1
+{
+    margin-bottom: 0px;
+}
+
+.container .function div
+{
+    float: left;
+    width: 300px;
+    margin-right: 30px;
+}
+
+.container .function .row1col3
+{
+    float: left;
+    width: 300px;
+    margin-right: 0px;
+}
+
+.container .function .row2col3
+{
+    float: left;
+    width: 300px;
+    margin-right: 0px;
 }
