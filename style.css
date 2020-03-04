@@ -202,6 +202,14 @@ body
     margin-right: 0px;
 }
 
+.center
+{
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+}
+
 @media screen and (max-width: 960px)
 {
     .navbar home
