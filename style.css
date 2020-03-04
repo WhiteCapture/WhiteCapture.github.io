@@ -237,14 +237,15 @@ body
         font-size: 48px;
     }
     
-    .container .decription h3
-    {
-        font-size: 12px;
-    }
     
     .container .decription p
     {
         font-size: 10px;
+    }
+    
+    .container .decription h3
+    {
+        font-size: 12px;
     }
     
     .container .decription .check
