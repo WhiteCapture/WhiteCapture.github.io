@@ -2,6 +2,7 @@ html
 {
     overflow-x: hidden;
     font-family: 'Noto Sans KR', sans-serif;
+    -webkit-overflow-scrolling : touch;
 }
     
 body
@@ -297,6 +298,13 @@ body
         clear: both;
         width: 300px;
         margin: 0 auto;
+    }
+    
+    .center
+    {
+        width: calc(100% - 20px);
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
 }
