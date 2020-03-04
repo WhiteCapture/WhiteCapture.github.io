@@ -10,12 +10,6 @@ body
     height: 100%;
 }
 
-html, body
-{
-    max-width: 100%;
-    overflow-x: hidden;
-}
-
 .navbar
 {
     background-color: #444;
@@ -224,6 +218,15 @@ html, body
         margin-left: 80px;
     }
     
+    .navbar .navContainer
+    {
+        width: 100%;
+    }
+    
+    .navbar ul
+    {
+        width: 280px;
+    }
     .container
     {
         width: 480px;
