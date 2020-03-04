@@ -229,8 +229,7 @@ body
     }
     .container
     {
-        width: 480px;
-        margin: 0 auto;
+        width: 100%;
     }
     
     .container .decription h1
@@ -240,12 +239,12 @@ body
     
     .container .decription h3
     {
-        font-size: 15px;
+        font-size: 12px;
     }
     
     .container .decription p
     {
-        font-size: 12px;
+        font-size: 10px;
     }
     
     .container .decription .check
