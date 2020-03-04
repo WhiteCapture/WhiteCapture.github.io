@@ -210,6 +210,11 @@ body
         font-size: 25px;
     }
     
+    .navbar
+    {
+        width: 100%;
+    }
+    
     .navbar ul
     {
         margin-top: 0px;
@@ -227,7 +232,13 @@ body
     {
         width: 280px;
     }
+    
     .container
+    {
+        width: 100%;
+    }
+    
+    .container .decription
     {
         width: 100%;
     }
