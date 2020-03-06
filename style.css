@@ -361,5 +361,10 @@ body
         word-break: break-all;
         padding-bottom: 100px;
     }
+    
+    .docs img
+    {
+        width: 100%;
+    }
 
 }
