@@ -88,18 +88,8 @@
                 $("ul", this).slideToggle(200);
                 return false;
             });
-            $("html").click(function() {
+            $("html").mousedown(function() {
                 $(".navbar ul li ul", this).slideUp(200);
-            })
-        });
-
-    </script>
-    
-    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.js"></script>
-    <script>
-        jQuery(document).ready(function() {
-            $(body).scroll(function(){
-                $(".navbar .hidden").hide();
             })
         });
 
