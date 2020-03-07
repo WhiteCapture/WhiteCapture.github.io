@@ -306,7 +306,7 @@ body
     
     .navbar .hidden
     {
-        width: calc(100% - left);
+        width: 140px;
     }
     
     .navbar .navContainer
