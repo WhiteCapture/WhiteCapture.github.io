@@ -98,7 +98,7 @@ body
     padding-left: 0px;
     padding-bottom: 10px;
     padding-top: 10px;
-    display: none;
+    display: block;
     background-color: #222;
     font-size: 18px;
 }
