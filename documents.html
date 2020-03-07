@@ -98,8 +98,8 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script>
         jQuery(document).ready(function() {
-            jQuery(window).scroll(function() {
-                $(".navbar ul li ul", this).slideUp(200);
+            $(document).on("scrollstart",function(){
+                alert("1");
             });
         });
 
