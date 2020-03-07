@@ -91,10 +91,25 @@
             $("html").click(function() {
                 $(".navbar ul li ul", this).slideUp(200);
             })
-            $("html").scroll(function() {
-                $(".navbar ul li ul", this).slideUp(200);
-            })
         });
+        
+    var didScroll;
+        
+    $(window).scroll(function(event){
+        didScroll = true;
+    });
+    
+    setInterval(function() {
+        if (didScroll)
+        {
+            hasScrolled();
+            didScroll = false;
+        }
+    }, 250);
+    
+    function hasScrolled() {
+        $(".navbar ul li ul", this).slideUp(200);
+    }
 
     </script>
 </head>
