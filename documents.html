@@ -98,9 +98,9 @@
     <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.js"></script>
     <script>
         jQuery(document).ready(function() {
-            $(document).on("scrollstart",function(){
-                alert("1");
-            });
+            $(body).scroll(function(){
+                $(".navbar .hidden").hide();
+            })
         });
 
     </script>
