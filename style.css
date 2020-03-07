@@ -90,6 +90,30 @@ body
     font-size: 25px;
 }
 
+.navbar .hidden
+{
+    position: absolute;
+    margin-left: -10px;
+    margin-top: 20px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: inline-block;
+    background-color: #222;
+    font-size: 18px;
+}
+
+.navbar .hidden li
+{
+    clear: both !important;
+    display: inline-block;
+    color: black;
+}
+
+.navbar .hidden a
+{
+}
+
 .navContainer
 {
     width:960px;
