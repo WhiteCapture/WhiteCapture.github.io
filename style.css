@@ -94,13 +94,13 @@ body
 {
     position: absolute;
     margin-left: -10px;
-    margin-top: 22px;
     padding-left: 0px;
     padding-bottom: 10px;
     padding-top: 10px;
     display: none;
     background-color: #222;
     font-size: 18px;
+    top: 70px;
 }
 
 .navbar .hidden li
@@ -307,7 +307,6 @@ body
     .navbar .hidden
     {
         width: 140px;
-        margin-top: 24px;
     }
     
     .navbar .navContainer
