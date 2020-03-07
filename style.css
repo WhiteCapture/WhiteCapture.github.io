@@ -304,6 +304,11 @@ body
         margin-left: 80px;
     }
     
+    .navbar .hidden
+    {
+        width: calc(100% - left);
+    }
+    
     .navbar .navContainer
     {
         width: 100%;
