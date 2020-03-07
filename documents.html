@@ -16,10 +16,10 @@
     <link rel="apple-touch-icon-precomposed" href="icon2.ico" type="image/x-icon">
 
     <!-- 네이버 웹마스터 도구 인증 -->
-    <meta name="naver-site-verification" content="043ffabde42b214d7f8b512752fae53c20bcf32d">
+<!--    <meta name="naver-site-verification" content="043ffabde42b214d7f8b512752fae53c20bcf32d">
 
     <!-- 구글 애드센스 인증 -->
-    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!--    <script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
     <script>
         (adsbygoogle = window.adsbygoogle || []).push({
             google_ad_client: "ca-pub-8300508428952123",
@@ -29,10 +29,10 @@
     </script>
 
     <!-- 트위터 링크 공유 형식 -->
-    <meta name="twitter:card" content="summary">
+<!--    <meta name="twitter:card" content="summary">
 
     <!-- Google 구조화된 데이터 마크업 도우미에 의해 생성된 JSON-LD 마크업입니다. -->
-    <script type="application/ld+json">
+ <!--   <script type="application/ld+json">
         {
             "@context": "http://schema.org",
             "@type": "SoftwareApplication",
@@ -63,7 +63,7 @@
     <meta property="og:image:width" content="250">
     <meta property="og:image:height" content="250">
     <!-- Google Analytics -->
-    <script>
+  <!--  <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
             i[r] = i[r] || function() {
@@ -79,7 +79,8 @@
         ga('create', 'UA-134702529-1', 'auto');
         ga('send', 'pageview', 'https://tflow.co.kr/');
 
-    </script>
+    </script>-->
+    
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
@@ -88,7 +89,7 @@
                 $("ul", this).slideToggle(200);
                 return false;
             });
-            $("html").mousedown(function() {
+            $("html").click(function() {
                 $(".navbar ul li ul", this).slideUp(200);
             })
         });
@@ -97,12 +98,12 @@
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
     <script type="text/javascript">
         $(function() {
-            $('body').bind('scrollstart', function(event) {
-                alert("1");
+            $(document).scroll(function(e) {
+                $(".navbar ul li ul", this).slideUp(200);
             });
         });
-
     </script>
+    
 </head>
 
 <body>
