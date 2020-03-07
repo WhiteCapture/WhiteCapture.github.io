@@ -307,6 +307,7 @@ body
     .navbar .hidden
     {
         width: 140px;
+        margin-top: 24px;
     }
     
     .navbar .navContainer
