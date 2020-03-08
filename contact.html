@@ -90,7 +90,7 @@
                 $("ul", this).slideToggle(200);
             });
             
-            var clipboard = new Clipboard('.copy');
+            var clipboard = new Clipboard('.btn');
             clipboard.on('success', function(e) {
                 alert("문의 주소가 복사되었습니다.");
             });
