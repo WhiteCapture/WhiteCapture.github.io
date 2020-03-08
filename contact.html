@@ -82,17 +82,11 @@
     </script>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             $(".navbar .hidden").hide();
             $(".navbar .open").click(function() {
                 $("ul", this).slideToggle(200);
-            });
-            
-            var clipboard = new Clipboard('.btn');
-            clipboard.on('success', function(e) {
-                alert("문의 주소가 복사되었습니다.");
             });
         });
 
@@ -102,6 +96,15 @@
             $(document).scroll(function(e) {
                 $(".navbar .hidden").slideUp(200);
             });
+        });
+
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+    <script>
+        var clipboard = new Clipboard('.btn');
+        clipboard.on('success', function(e) {
+            alert("문의 주소가 복사되었습니다.");
         });
 
     </script>
