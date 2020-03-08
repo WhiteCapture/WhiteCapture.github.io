@@ -87,21 +87,15 @@
             $(".navbar .hidden").hide();
             $(".navbar .open").click(function() {
                 $("ul", this).slideToggle(200);
-                return false;
             });
-            $("html").click(function() {
-                $(".navbar ul li ul", this).slideUp(200);
-            })
         });
-
     </script>
     <script type="text/javascript">
         $(function() {
             $(document).scroll(function(e) {
-                $(".navbar ul li ul", this).slideUp(200);
+                $(".navbar .hidden").slideUp(200);
             });
         });
-
     </script>
 
 </head>
