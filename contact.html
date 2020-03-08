@@ -80,18 +80,7 @@
         ga('send', 'pageview', 'https://tflow.co.kr/');
 
     </script>
-    <script>
-        function copyToClipboard(elementId) {
-            var aux = document.createElement("input");
-            aux.setAttribute("value", document.getElementById(elementId).innerHTML);
-            document.body.appendChild(aux);
-            aux.select();
-            document.execCommand("copy");
-            document.body.removeChild(aux);
-            alert("문의 주소가 복사되었습니다.");
-        }
 
-    </script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
     <script type="text/javascript">
@@ -99,6 +88,11 @@
             $(".navbar .hidden").hide();
             $(".navbar .open").click(function() {
                 $("ul", this).slideToggle(200);
+            });
+            
+            var clipboard = new Clipboard('.copy');
+            clipboard.on('success', function(e) {
+                alert("문의 주소가 복사되었습니다.")
             });
         });
 
@@ -110,12 +104,6 @@
             });
         });
 
-    </script>
-    <script>
-        var clipboard = new Clipboard('.copy');
-        clipboard.on('success', function(e) {
-            alert("문의 주소가 복사되었습니다.")
-        });
     </script>
 </head>
 
@@ -142,7 +130,7 @@
         <h1>문의하기</h1>
         <p>아래 이메일 주소로 흰캡처에 관한 문의를 받습니다.</p>
         <p id="email">devsil.teamflow@gmail.com</p>
-        <a class="btn" style="padding-top:5px; padding-bottom: 5px;"  data-clipboard-text="#email" href="#"> 복사</a>
+        <a class="btn" style="padding-top:5px; padding-bottom: 5px;" data-clipboard-text="#email" href="#"> 복사</a>
         <p>&nbsp;</p>
         <h3>꼭 지켜주세요!</h3>
         <p>- 메일 제목에 [흰캡처] 말머리 붙이기.<br>- 메일 본문에 흰캡처 버전 작성하기.</p>
