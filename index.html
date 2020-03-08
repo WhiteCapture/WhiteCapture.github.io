@@ -83,10 +83,14 @@
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
-            $(".navbar .open").click(function() {
+            $(".navbar .hidden").hide();
+            $(".navbar .open:not(li)").click(function() {
                 $("ul", this).slideToggle(200);
                 return false;
             });
+            $("").click(function() {
+                $(".navbar ul li ul", this).slideUp(200);
+            })
         });
 
     </script>
