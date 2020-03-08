@@ -101,6 +101,7 @@ body
     background-color: #222;
     font-size: 18px;
     top: 70px;
+    z-index: 99;
 }
 
 .navbar .hidden li
