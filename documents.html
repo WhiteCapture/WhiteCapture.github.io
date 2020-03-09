@@ -87,6 +87,7 @@
             $(".navbar .hidden").hide();
             $(".navbar .open").click(function() {
                 $("ul", this).slideToggle(200);
+                $(".adsbygoogle", this).hide();
                 e.preventDefault();
             });
         });
