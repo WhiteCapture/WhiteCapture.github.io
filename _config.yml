@@ -1,0 +1,5 @@
+analytics:
+  provider: "google"
+  google:
+    tracking_id: "UA-1234567-8"
+    anonymize_ip: false # default
