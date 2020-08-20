@@ -285,7 +285,7 @@ body
 {
     .navbar .other
     {
-        visibility: hidden;
+        display: none;
     }
     
 
